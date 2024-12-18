@@ -138,7 +138,7 @@ function Post() {
           </button>
         </div>
         <div className="listOfComments">
-          <h3>Comments: (Before Deleting A Comment Please Refresh)</h3>
+          <h3>Comments:</h3>
           {comments.map((comment, index) => (
             <div
               key={index}
