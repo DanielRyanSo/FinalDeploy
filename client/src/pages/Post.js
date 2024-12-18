@@ -90,7 +90,7 @@ function Post() {
       {showErrorBanner && (
         <div className="errorBanner">
           <FaExclamationTriangle className="errorIcon" />
-          <span className="errorMessage">Please reload to delete a comment.</span>
+          <span className="errorMessage">Please Reload.</span>
           <button
             className="closeErrorBanner"
             onClick={() => setShowErrorBanner(false)}
